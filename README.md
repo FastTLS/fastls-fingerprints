@@ -1,5 +1,7 @@
 # fastls-fingerprints
 
+[English documentation](https://fasttls.github.io/en/ecosystem/)
+
 FastTLS 的指纹证据与固定数据产物仓库入口。**当前远端尚无正式发布的数据包或模块版本。** 本次初始化说明文档不意味着已发布本地生成的 Bundle、采集样本或完整浏览器认证结果。
 
 ## 普通用户如何使用
