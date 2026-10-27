@@ -2,13 +2,13 @@
 
 [English documentation](https://fasttls.github.io/en/ecosystem/)
 
-FastTLS 的指纹证据与固定数据产物仓库入口。**当前远端尚无正式发布的数据包或模块版本。** 本次初始化说明文档不意味着已发布本地生成的 Bundle、采集样本或完整浏览器认证结果。
+本仓库用于存放 FastTLS 指纹数据及其采集和验证记录，目前尚未发布数据包或 Go 模块。
 
 ## 普通用户如何使用
 
-直接使用 [Fastls](https://fasttls.github.io/fastls/)、[Python](https://fasttls.github.io/python/) 或 [Node](https://fasttls.github.io/node/) 的内置配置入口。配置由 [imitate](https://github.com/FastTLS/imitate) 单点生成，支持集合以安装版本的 List/list_profiles()/listProfiles() 为准。
+直接使用 [Fastls](https://fasttls.github.io/fastls/)、[Python](https://fasttls.github.io/python/) 或 [Node](https://fasttls.github.io/node/) 的内置配置入口。配置由 [imitate](https://github.com/FastTLS/imitate) 生成。可用配置通过所安装版本的 List/list_profiles()/listProfiles() 查询。
 
-需要离线 Bundle 时，由固定版本 imitate 的导出工具生成，再按 [Fastls 离线注册指南](https://fasttls.github.io/fastls/profiles) 加载；当前没有可以直接 pip/npm/go install 的 fastls-fingerprints 数据包。不要把目录规划或本地文件存在当作已完成远端发布。
+需要离线 Bundle 时，由固定版本 imitate 的导出工具生成，再按 [Fastls 离线注册指南](https://fasttls.github.io/fastls/profiles) 加载；当前没有可以直接 pip/npm/go install 的 fastls-fingerprints 数据包。
 
 ## 数据发布要求与限制
 
